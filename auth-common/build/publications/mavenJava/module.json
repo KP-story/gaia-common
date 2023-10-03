@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.delight.gaia",
+    "module": "auth-common",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "auth-common-0.1-plain.jar",
+          "url": "auth-common-0.1-plain.jar",
+          "size": 43071,
+          "sha512": "40ecb58d6c70724973e5dedf3844065229aa4f737a5c8c180f0ff7bf2ed3ac48dca870fd3fd41214205e63b41f048f562362470a2802cbe4c0f8b28ecd445876",
+          "sha256": "651d5a1c8184fe9083ab37c08e86eeadf0801b5cd223ef85a5a1d3a2038e38c4",
+          "sha1": "078b0b191fef58f6730f03f458f2278561beabdb",
+          "md5": "52909cb035a2558e69d9a128f4426efc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.26"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.5.5"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.23.2"
+          }
+        },
+        {
+          "group": "com.delight.gaia",
+          "module": "sp-base",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.1.6"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-webflux"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop"
+        },
+        {
+          "group": "com.nimbusds",
+          "module": "nimbus-jose-jwt",
+          "version": {
+            "requires": "9.31"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.21.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-0.1-plain.jar",
+          "url": "auth-common-0.1-plain.jar",
+          "size": 43071,
+          "sha512": "40ecb58d6c70724973e5dedf3844065229aa4f737a5c8c180f0ff7bf2ed3ac48dca870fd3fd41214205e63b41f048f562362470a2802cbe4c0f8b28ecd445876",
+          "sha256": "651d5a1c8184fe9083ab37c08e86eeadf0801b5cd223ef85a5a1d3a2038e38c4",
+          "sha1": "078b0b191fef58f6730f03f458f2278561beabdb",
+          "md5": "52909cb035a2558e69d9a128f4426efc"
+        }
+      ]
+    }
+  ]
+}

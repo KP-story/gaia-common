@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.delight.gaia",
+    "module": "web-api-base",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "web-api-base-0.1-plain.jar",
+          "url": "web-api-base-0.1-plain.jar",
+          "size": 27049,
+          "sha512": "613666c16f23282a2f92de1a1849b40e04db39131cf15026ec50ca39ff483c7590d912c496ccf5951b69e6caa737507d35651f7e9bfeff2122c432f6babe4ae2",
+          "sha256": "3fbea3909e3e7e4af8bccfeafb0df866381d0000905be29eb8666e708dc330a8",
+          "sha1": "4f024169dd1ff2b5c147490ffee6fb65980c8fbb",
+          "md5": "e923365c5b4a287e0daa91fc8f16ba35"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.26"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.5.5"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.23.2"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-webflux"
+        },
+        {
+          "group": "com.delight.gaia",
+          "module": "sp-base",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "javax.validation",
+          "module": "validation-api",
+          "version": {
+            "requires": "2.0.1.Final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "web-api-base-0.1-plain.jar",
+          "url": "web-api-base-0.1-plain.jar",
+          "size": 27049,
+          "sha512": "613666c16f23282a2f92de1a1849b40e04db39131cf15026ec50ca39ff483c7590d912c496ccf5951b69e6caa737507d35651f7e9bfeff2122c432f6babe4ae2",
+          "sha256": "3fbea3909e3e7e4af8bccfeafb0df866381d0000905be29eb8666e708dc330a8",
+          "sha1": "4f024169dd1ff2b5c147490ffee6fb65980c8fbb",
+          "md5": "e923365c5b4a287e0daa91fc8f16ba35"
+        }
+      ]
+    }
+  ]
+}

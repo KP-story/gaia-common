@@ -1,0 +1,12 @@
+rootProject.name = 'gaia'
+include 'sp-base'
+include 'web-api-base'
+include 'jpa-common'
+include 'concurrent-common'
+include 'auth-common'
+include 'connector-common'
+include 'websocket-common'
+include 'asset-common'
+include 'messaging-common'
+include 'grpc-support'
+

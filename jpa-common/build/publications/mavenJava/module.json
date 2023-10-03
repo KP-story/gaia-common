@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.delight.gaia",
+    "module": "jpa-common",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jpa-common-0.1-plain.jar",
+          "url": "jpa-common-0.1-plain.jar",
+          "size": 25528,
+          "sha512": "1cc6465feb582388c8b636792b5c33157fc9ac32b74dd55e44cfa133574230a98fabab43969837363c62b844ad5d3a8217f91a0cc8dff5ddbd10bd853824a66a",
+          "sha256": "dc696f0c8ce9b39e82b3975c890ba11174613bd8369a8ef95436ac1f99cb33b2",
+          "sha1": "6ab729217d8dbb445a82fdce3de72aeb1a1413b0",
+          "md5": "77de994473c92d7808ed86609b6ae821"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.26"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.5.5"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.23.2"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-r2dbc"
+        },
+        {
+          "group": "com.delight.gaia",
+          "module": "sp-base",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "net.bytebuddy",
+          "module": "byte-buddy",
+          "version": {
+            "requires": "1.14.4"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jpa-common-0.1-plain.jar",
+          "url": "jpa-common-0.1-plain.jar",
+          "size": 25528,
+          "sha512": "1cc6465feb582388c8b636792b5c33157fc9ac32b74dd55e44cfa133574230a98fabab43969837363c62b844ad5d3a8217f91a0cc8dff5ddbd10bd853824a66a",
+          "sha256": "dc696f0c8ce9b39e82b3975c890ba11174613bd8369a8ef95436ac1f99cb33b2",
+          "sha1": "6ab729217d8dbb445a82fdce3de72aeb1a1413b0",
+          "md5": "77de994473c92d7808ed86609b6ae821"
+        }
+      ]
+    }
+  ]
+}

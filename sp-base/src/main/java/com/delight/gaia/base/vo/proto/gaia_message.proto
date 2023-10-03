@@ -1,0 +1,16 @@
+syntax = "proto3";
+package com.delight.gaia.base.vo.proto;
+option optimize_for = SPEED;
+option java_multiple_files = true;
+message GaiaMessageProto {
+    Metadata metadata = 1;
+  optional  bytes payload = 2;
+}
+message Metadata {
+  optional  uint64 id = 2;
+  optional string command = 1;
+  optional uint32 statusResponse = 3;
+  optional string errorResponse = 4;
+  map<string, string> attributes = 5;
+}
+

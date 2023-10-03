@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.delight.gaia",
+    "module": "sp-base",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sp-base-0.1-plain.jar",
+          "url": "sp-base-0.1-plain.jar",
+          "size": 101036,
+          "sha512": "8e1c7e27130b7563096b8fd4ec096bfa63c2afae68808dbe08ba49462013031d230e3f4f6bafbd3b80ea42e871b0bb7cf494f858b34115b6cfbb3062b2d32c50",
+          "sha256": "c035a40c5751ddb3b86eeb202da3f9e2a79a4e6710f56c561fc66cb9655d0e7c",
+          "sha1": "c8deec71bca464327f8e238dfd0f04bfa354733c",
+          "md5": "dd26a0f403ac736bbcf62e08ac00826f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.26"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.5.5"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.23.2"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop"
+        },
+        {
+          "group": "org.thymeleaf",
+          "module": "thymeleaf-spring5",
+          "version": {
+            "requires": "3.1.1.RELEASE"
+          }
+        },
+        {
+          "group": "org.mapstruct",
+          "module": "mapstruct",
+          "version": {
+            "requires": "1.5.5.Final"
+          }
+        },
+        {
+          "group": "org.mapstruct",
+          "module": "mapstruct-processor",
+          "version": {
+            "requires": "1.5.5.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "5.0.0.Alpha2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sp-base-0.1-plain.jar",
+          "url": "sp-base-0.1-plain.jar",
+          "size": 101036,
+          "sha512": "8e1c7e27130b7563096b8fd4ec096bfa63c2afae68808dbe08ba49462013031d230e3f4f6bafbd3b80ea42e871b0bb7cf494f858b34115b6cfbb3062b2d32c50",
+          "sha256": "c035a40c5751ddb3b86eeb202da3f9e2a79a4e6710f56c561fc66cb9655d0e7c",
+          "sha1": "c8deec71bca464327f8e238dfd0f04bfa354733c",
+          "md5": "dd26a0f403ac736bbcf62e08ac00826f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management'
+}
+
+group 'com.delight.gaia'
+version '0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.springframework:spring-web"
+    implementation "org.springframework.boot:spring-boot-starter-aop"
+    implementation group: 'org.thymeleaf', name: 'thymeleaf-spring5', version: '3.1.1.RELEASE'
+    implementation group: 'org.mapstruct', name: 'mapstruct', version: '1.5.5.Final'
+    implementation group: 'org.mapstruct', name: 'mapstruct-processor', version: '1.5.5.Final'
+    implementation group: 'io.netty', name: 'netty-buffer', version: '5.0.0.Alpha2'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+    implementation group: 'org.reflections', name: 'reflections', version: '0.10.2'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.15.0'
+    implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.15.0'
+}
+
+test {
+    useJUnitPlatform()
+}

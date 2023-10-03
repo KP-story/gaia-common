@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.delight.gaia",
+    "module": "connector-common",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "connector-common-0.1-plain.jar",
+          "url": "connector-common-0.1-plain.jar",
+          "size": 18690,
+          "sha512": "c27db4dab45e601eac182c824647072fe1948f7bef90db5831198b9b1e58815139306426d6f0f057c1f0c10198ba77d9875cebf5c2378e215baea9066f86238c",
+          "sha256": "e37b52c91589479434b5392a5a170ab4f400ce32160e6fcfe1e224fd323c4003",
+          "sha1": "bf61b9b3afec701508726e42d9dc01cc5d161e5b",
+          "md5": "e49ad93f467d1b9d8690e27d4a148ead"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.26"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.5.5"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.23.2"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "io.github.openfeign",
+          "module": "feign-reactive-wrappers",
+          "version": {
+            "requires": "12.3"
+          }
+        },
+        {
+          "group": "io.github.openfeign",
+          "module": "feign-okhttp",
+          "version": {
+            "requires": "12.3"
+          }
+        },
+        {
+          "group": "io.github.openfeign",
+          "module": "feign-jackson",
+          "version": {
+            "requires": "12.3"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot"
+        },
+        {
+          "group": "org.springframework.cloud",
+          "module": "spring-cloud-openfeign-core",
+          "version": {
+            "requires": "4.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connector-common-0.1-plain.jar",
+          "url": "connector-common-0.1-plain.jar",
+          "size": 18690,
+          "sha512": "c27db4dab45e601eac182c824647072fe1948f7bef90db5831198b9b1e58815139306426d6f0f057c1f0c10198ba77d9875cebf5c2378e215baea9066f86238c",
+          "sha256": "e37b52c91589479434b5392a5a170ab4f400ce32160e6fcfe1e224fd323c4003",
+          "sha1": "bf61b9b3afec701508726e42d9dc01cc5d161e5b",
+          "md5": "e49ad93f467d1b9d8690e27d4a148ead"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management'
+}
+
+group 'com.delight.gaia'
+version '0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.reflections', name: 'reflections', version: '0.10.2'
+    implementation group: 'io.github.openfeign', name: 'feign-reactive-wrappers', version: '12.3'
+    implementation group: 'io.github.openfeign', name: 'feign-okhttp', version: '12.3'
+    implementation group: 'io.github.openfeign', name: 'feign-jackson', version: '12.3'
+    implementation "org.springframework.boot:spring-boot"
+    implementation group: 'org.springframework.cloud', name: 'spring-cloud-openfeign-core', version: '4.0.2'
+
+
+}
+
+test {
+    useJUnitPlatform()
+}

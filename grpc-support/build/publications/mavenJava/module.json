@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.delight.gaia",
+    "module": "grpc-support",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "grpc-support-0.1.jar",
+          "url": "grpc-support-0.1.jar",
+          "size": 1847,
+          "sha512": "005f4579464e1ecc91d3be73100acfc587052c8abb0de6fd52d68a78c6b147db006de0b4b25e79e194dd92bde13775e58137a0338930b198a516b92de79350f1",
+          "sha256": "308a09adfb8aff3273e26b215c7931c4676404115597432ef41617e0fa2066fd",
+          "sha1": "453a81761740fa277693009a3060b608a8bad0f1",
+          "md5": "5e68eff153bd8e82248ad3a3276878db"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.26"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.5.5"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.23.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grpc-support-0.1.jar",
+          "url": "grpc-support-0.1.jar",
+          "size": 1847,
+          "sha512": "005f4579464e1ecc91d3be73100acfc587052c8abb0de6fd52d68a78c6b147db006de0b4b25e79e194dd92bde13775e58137a0338930b198a516b92de79350f1",
+          "sha256": "308a09adfb8aff3273e26b215c7931c4676404115597432ef41617e0fa2066fd",
+          "sha1": "453a81761740fa277693009a3060b608a8bad0f1",
+          "md5": "5e68eff153bd8e82248ad3a3276878db"
+        }
+      ]
+    }
+  ]
+}

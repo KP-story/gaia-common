@@ -1,0 +1,24 @@
+com/delight/gaia/connector/http/GaiaProtocol.java
+ com.delight.gaia.connector.http.GaiaProtocol
+com/delight/gaia/connector/http/HttpClientFactory.java
+ com.delight.gaia.connector.http.HttpClientFactory
+com/delight/gaia/connector/http/config/ConnectionConfig.java
+ com.delight.gaia.connector.http.config.ConnectionConfig
+com/delight/gaia/connector/http/codec/GaiaEncoder.java
+ com.delight.gaia.connector.http.codec.GaiaEncoder
+com/delight/gaia/connector/http/HttpClient.java
+ com.delight.gaia.connector.http.HttpClient
+com/delight/gaia/connector/http/config/EnableHttpClients.java
+ com.delight.gaia.connector.http.config.EnableHttpClients
+com/delight/gaia/connector/http/config/HttpConfig.java
+ com.delight.gaia.connector.http.config.HttpConfig
+com/delight/gaia/connector/http/SpringFeignHttpClientFactory.java
+ com.delight.gaia.connector.http.SpringFeignHttpClientFactory
+ com.delight.gaia.connector.http.SpringFeignHttpClientFactory$1
+com/delight/gaia/connector/http/HttpClientRegistrar.java
+ com.delight.gaia.connector.http.HttpClientRegistrar
+ com.delight.gaia.connector.http.HttpClientRegistrar$1
+com/delight/gaia/connector/http/FeignHttpClientFactory.java
+ com.delight.gaia.connector.http.FeignHttpClientFactory
+com/delight/gaia/connector/http/BaseHttpClientFactory.java
+ com.delight.gaia.connector.http.BaseHttpClientFactory

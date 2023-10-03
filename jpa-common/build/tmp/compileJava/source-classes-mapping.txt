@@ -1,0 +1,39 @@
+com/delight/gaia/jpa/repo/BatchRepo.java
+ com.delight.gaia.jpa.repo.BatchRepo
+com/delight/gaia/jpa/converter/annotation/JsonRawConverter.java
+ com.delight.gaia.jpa.converter.annotation.JsonRawConverter
+com/delight/gaia/jpa/repo/JPABaseRepo.java
+ com.delight.gaia.jpa.repo.JPABaseRepo
+com/delight/gaia/jpa/entity/BaseEntity.java
+ com.delight.gaia.jpa.entity.BaseEntity
+com/delight/gaia/jpa/converter/ReadConverterProxyBuilder.java
+ com.delight.gaia.jpa.converter.ReadConverterProxyBuilder
+com/delight/gaia/jpa/converter/annotation/JsonType.java
+ com.delight.gaia.jpa.converter.annotation.JsonType
+com/delight/gaia/jpa/entity/VersionedEntity.java
+ com.delight.gaia.jpa.entity.VersionedEntity
+com/delight/gaia/jpa/repo/CustomRepo.java
+ com.delight.gaia.jpa.repo.CustomRepo
+com/delight/gaia/jpa/repo/BaseRepo.java
+ com.delight.gaia.jpa.repo.BaseRepo
+com/delight/gaia/jpa/repo/AbsBaseRepo.java
+ com.delight.gaia.jpa.repo.AbsBaseRepo
+com/delight/gaia/jpa/converter/JsonReadConverter.java
+ com.delight.gaia.jpa.converter.JsonReadConverter
+com/delight/gaia/jpa/converter/JsonWriteConverter.java
+ com.delight.gaia.jpa.converter.JsonWriteConverter
+com/delight/gaia/jpa/entity/TraceableEntity.java
+ com.delight.gaia.jpa.entity.TraceableEntity
+com/delight/gaia/jpa/config/JpaConfig.java
+ com.delight.gaia.jpa.config.JpaConfig
+com/delight/gaia/jpa/config/ConverterRegistrar.java
+ com.delight.gaia.jpa.config.ConverterRegistrar
+ com.delight.gaia.jpa.config.ConverterRegistrar$1
+com/delight/gaia/jpa/config/EnableCustomType.java
+ com.delight.gaia.jpa.config.EnableCustomType
+com/delight/gaia/jpa/converter/ReadConverter.java
+ com.delight.gaia.jpa.converter.ReadConverter
+com/delight/gaia/jpa/config/DatasourceConfiguration.java
+ com.delight.gaia.jpa.config.DatasourceConfiguration
+com/delight/gaia/jpa/converter/annotation/TypeDef.java
+ com.delight.gaia.jpa.converter.annotation.TypeDef

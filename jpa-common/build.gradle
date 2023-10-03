@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management'
+}
+
+group 'com.delight.gaia'
+version '0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-r2dbc'
+    implementation project(':sp-base')
+    implementation group: 'net.bytebuddy', name: 'byte-buddy', version: '1.14.4'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.15.0'
+    implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.15.0'
+}
+
+test {
+    useJUnitPlatform()
+}

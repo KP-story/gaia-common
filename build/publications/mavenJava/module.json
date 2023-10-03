@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.delight.gaia",
+    "module": "gaia",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gaia-0.1-plain.jar",
+          "url": "gaia-0.1-plain.jar",
+          "size": 261,
+          "sha512": "d96d27c23a517f2120207aefc303d555616a38c703dc56c6a0e54c1411da11d79c4de36520af63bdb37378e070641b31caa619be9048c1c7147abb765ee38d21",
+          "sha256": "487fd8db4e13ebf6602baa61edefb8e1a755f78b87a755170cfe2a15a1112c8f",
+          "sha1": "57cdf3b0532890f4b9ff1029208d863944632eaa",
+          "md5": "011044175458aa1c6602567f168d2d38"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.26"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.5.5"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.23.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gaia-0.1-plain.jar",
+          "url": "gaia-0.1-plain.jar",
+          "size": 261,
+          "sha512": "d96d27c23a517f2120207aefc303d555616a38c703dc56c6a0e54c1411da11d79c4de36520af63bdb37378e070641b31caa619be9048c1c7147abb765ee38d21",
+          "sha256": "487fd8db4e13ebf6602baa61edefb8e1a755f78b87a755170cfe2a15a1112c8f",
+          "sha1": "57cdf3b0532890f4b9ff1029208d863944632eaa",
+          "md5": "011044175458aa1c6602567f168d2d38"
+        }
+      ]
+    }
+  ]
+}

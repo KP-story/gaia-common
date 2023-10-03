@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.delight.gaia",
+    "module": "concurrent-common",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "concurrent-common-0.1-plain.jar",
+          "url": "concurrent-common-0.1-plain.jar",
+          "size": 12858,
+          "sha512": "f5c703182411333f46efd214341a3ed81e24c6a79b9f654a7e928c5ab0387000f19e2db9691909689d27f8f2f440aad3e44877206d50d05a66b2117867be831b",
+          "sha256": "50d74f970ef8db0fbd70b80dd74a804427d1e9e0c3fa0837395c5cf506b5c5c1",
+          "sha1": "e3e34541970750cb9c6191d101c981fc6d93b4b6",
+          "md5": "97e7bd629697b8d48ecf9288d4f448ac"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.26"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.5.5"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.23.2"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.1.6"
+          }
+        },
+        {
+          "group": "com.delight.gaia",
+          "module": "sp-base",
+          "version": {
+            "requires": "0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "concurrent-common-0.1-plain.jar",
+          "url": "concurrent-common-0.1-plain.jar",
+          "size": 12858,
+          "sha512": "f5c703182411333f46efd214341a3ed81e24c6a79b9f654a7e928c5ab0387000f19e2db9691909689d27f8f2f440aad3e44877206d50d05a66b2117867be831b",
+          "sha256": "50d74f970ef8db0fbd70b80dd74a804427d1e9e0c3fa0837395c5cf506b5c5c1",
+          "sha1": "e3e34541970750cb9c6191d101c981fc6d93b4b6",
+          "md5": "97e7bd629697b8d48ecf9288d4f448ac"
+        }
+      ]
+    }
+  ]
+}
